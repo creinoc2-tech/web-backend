@@ -7,7 +7,7 @@ const dbConnect = async () => {
         console.log('**** CONEXION CORRECTA ****');
     } catch (err) {
         console.log('***** ERROR DE CONEXION ****');
-    }
+    } 
 };
-
-module.exports = dbConnect
+ 
+module.exports = dbConnect 
